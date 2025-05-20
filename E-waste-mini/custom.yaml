@@ -1,0 +1,47 @@
+# custom.yaml
+
+path: /Users/ujjwalraj/Desktop/Ewaste/E-waste-mini  # absolute path to dataset root
+
+train: train/images
+val: train/images  # use a separate val folder if available
+
+nc: 37  # number of classes
+
+names:
+  - Battery
+  - Laptop
+  - Mobile
+  - Keyboard
+  - Mouse
+  - Monitor
+  - Printer
+  - Router
+  - HardDrive
+  - DVD
+  - TV
+  - Remote
+  - Charger
+  - Fan
+  - AC
+  - WashingMachine
+  - Refrigerator
+  - Speaker
+  - Camera
+  - Cable
+  - CPU
+  - Tablet
+  - PowerBank
+  - LED
+  - HairDryer
+  - VacuumCleaner
+  - Microwave
+  - Toaster
+  - Scanner
+  - Modem
+  - PSU
+  - Projector
+  - FlashDrive
+  - GameConsole
+  - Motherboard
+  - GPS
+  - Smartwatch

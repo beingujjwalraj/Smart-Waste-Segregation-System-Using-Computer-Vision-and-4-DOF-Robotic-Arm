@@ -1,0 +1,52 @@
+# E-Waste Object Detection Dataset Configuration
+
+# Number of classes
+nc: 37
+
+# Class names (add/edit according to your actual labels)
+names:
+  - Battery
+  - Laptop
+  - Mobile
+  - Keyboard
+  - Mouse
+  - Monitor
+  - Printer
+  - Router
+  - HardDrive
+  - DVD
+  - TV
+  - Remote
+  - Charger
+  - Fan
+  - AC
+  - WashingMachine
+  - Refrigerator
+  - Speaker
+  - Camera
+  - Cable
+  - CPU
+  - Tablet
+  - PowerBank
+  - LED
+  - HairDryer
+  - VacuumCleaner
+  - Microwave
+  - Toaster
+  - Scanner
+  - Modem
+  - PSU
+  - Projector
+  - FlashDrive
+  - GameConsole
+  - Motherboard
+  - GPS
+  - Smartwatch
+
+# Paths to the training and validation image directories
+train: /Users/ujjwalraj/Desktop/Ewaste/E-waste/train/images
+val: /Users/ujjwalraj/Desktop/Ewaste/E-waste/valid/images
+
+# (Optional) test set
+test: /Users/ujjwalraj/Desktop/Ewaste/E-waste/test/images
+# (Optional) path to the labels directory
